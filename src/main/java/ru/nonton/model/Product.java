@@ -2,13 +2,13 @@ package ru.nonton.model;
 
 import java.util.Objects;
 
+/**
+ * Структура Product
+ */
 public class Product {
     private String id;
     private String name;
 
-    public Product(){
-
-    }
 
     public Product(String id, String name) {
         this.id = id;

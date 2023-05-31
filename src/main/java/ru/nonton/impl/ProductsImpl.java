@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
- * Класс для реализации 4 функций
+ * Класс для реализации 4 функций (добавление, удаление, получение имени по id и получение всех id по имени)
  */
 public class ProductsImpl {
     private ArrayList<Product> products = new ArrayList<>();
